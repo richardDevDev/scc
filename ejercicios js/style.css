@@ -1,0 +1,16 @@
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: darkred;
+    color: white;
+    font-size: 17px;
+}p{
+    font: 1em sans-serif;
+    font-size: 30px;
+}

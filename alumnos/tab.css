@@ -1,0 +1,37 @@
+body{
+    background-color: #e5e5f7;
+opacity: 0.8;
+background-image: radial-gradient(#7c7eb0 0.5px, #e5e5f7 0.5px);
+background-size: 10px 10px;
+}
+.contenedor {
+	width: 90%;
+	margin: auto;
+    text-align: center;
+}
+table {
+    table-layout: fixed;
+    margin: 10px;
+    backdrop-filter: blur(12px) saturate(177%);
+    -webkit-backdrop-filter: blur(12px) saturate(177%);
+    background-color: rgba(177, 176, 176, 0.32);
+    border-radius: 12px;
+    text-align: center;
+  }
+tr{
+    width: 10px;
+}
+  th, td {
+    width: 20px;
+    word-wrap: break-word;
+    
+}
+th{
+    background-color: rgb(5, 5, 5);
+    color: white;
+}
+td{
+    min-width: 142px;
+    overflow: hidden;
+    justify-content: center;
+}
