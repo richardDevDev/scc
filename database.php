@@ -9,7 +9,7 @@ class DB{
         $this->host     = 'localhost'; $this->db = 'cce'; $this->user = 'root'; $this->password = ""; $this->charset  = 'utf8mb4';
     }
     function connect(){
-        try{
+        try{        
             $connection = "mysql:host=" . $this->host . ";dbname=" . $this->db . ";charset=" . $this->charset;
             $options = [
                 PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
